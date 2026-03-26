@@ -1,16 +1,63 @@
-# React + Vite
+# DevOps Training App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal React + Vite application created for training purposes to practice a basic DevOps workflow:
 
-Currently, two official plugins are available:
+- local development
+- Git version control
+- connecting a project to a GitHub repository
+- preparing for deployment
+- preparing a CI/CD pipeline
+- next step: deployment with Cloudflare Pages
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Project Purpose
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project was created as a simplified starter frontend application to help learn the process of:
 
-## Expanding the ESLint configuration
+- creating an application
+- working with Git
+- pushing code to GitHub
+- running a local build
+- preparing for automated deployment
+- building a foundation for a CI/CD pipeline
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The project is intentionally kept simple so that each stage of the process is easy to understand, without unnecessary backend or infrastructure complexity.
+
+---
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- Git
+- GitHub
+
+---
+
+## Progress So Far
+
+### 1. A new React + Vite project was created
+
+The project was initialized as a minimal frontend application.
+
+### 2. `App.jsx` was simplified
+
+The application currently contains only a basic heading, making it easier to work with a minimal codebase and follow the deployment flow more clearly.
+
+Example:
+
+```jsx
+import './App.css'
+
+function App() {
+  return (
+    <>
+      <h1>React + Vite Training</h1>
+    </>
+  )
+}
+
+export default App
+```
