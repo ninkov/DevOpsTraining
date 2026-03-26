@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <h1>React + Vite Training</h1>
+      <h1>React + Vite Training - Deploy Test</h1>
     </>
   )
 }
