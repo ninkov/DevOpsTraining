@@ -376,3 +376,9 @@ The next logical improvements for this training project are:
 3. add automated tests in addition to lint and build
 4. continue improving the README as new phases are completed
 5. later consider Docker and Terraform as next-stage DevOps topics
+
+
+
+
+
+<!-- TEST -->
